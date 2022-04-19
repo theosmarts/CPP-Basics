@@ -6,6 +6,9 @@ using namespace std;
 #define IN 1  //Program is inside a word
 #define OUT 0 //Program is outside a word
 
+//When running the program on a windows machine, use Control + Z after you finish inputing in console.
+//In a Linux or Mac, use Control + D or Command + D 
+
 int main()
 {
     int characters, numberOfLines, numberOfWords, numberOfCharacters, state;
