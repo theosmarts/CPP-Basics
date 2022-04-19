@@ -1,0 +1,11 @@
+Variables - lines, words, characters
+
+
+Loop through all the characters in the file while we havent reached end of file
+for every character encountered, increase the count of characters
+If we encounter a new line, increase the count of lines
+start with the state being outside a word
+if while still looping through the file, we encounter a space, tab or new line, we are still outside a word.
+If we encounter a character that is not a space, tab or new line, we are inside a word
+increase the count of words
+continue until we encounter a space, tab or new line, only then, we will now be outside the word

@@ -1,0 +1,6 @@
+check user input to see if a number was inputed
+If the input is not a number, notify the user
+If the input is a number,proceede to 4
+If the number is equal to zero, print zero
+If the number is less than zero, print it's negative
+If the number is greater than zero, print it's positive
